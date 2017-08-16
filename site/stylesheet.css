@@ -1,0 +1,83 @@
+body{ 
+	background-color:pink;
+}
+
+h1{ 
+	font-family:"Trebuchet MS";
+	text-align:center; 
+	text-shadow: -1px 0 white, 0 -1px white, 1px 0 white, 0 1px white;
+}
+
+p{ 
+	font-family:"Arial";
+	text-align:justify; 
+	text-indent:50px;
+}
+
+div.reg{ 
+	background-color:white; 
+	border-bottom: 4px solid grey;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+}
+div.special{
+	border-radius:0px;
+	background-color:white;
+	border-bottom: 4px solid grey;
+}
+div.header{ 
+	background-color:plum;
+	border-bottom:none;
+	border-radius:25px;
+	box-shadow: -4px 0 grey, 0 -4px grey, 4px 0 grey, 0 4px grey;
+}
+div.extra{ 
+	background-color:white;
+	border-bottom:none;
+	text-align:center;
+	width:100%;
+	border-radius:0px;
+}
+div.frame{ 
+	background-color:white;
+	border-bottom:none; 
+	text-align:center;
+	width:100%;
+	margin: 0 auto;
+}
+a:link, a:visited{
+	font-family:"Impact";
+	background-color: plum;
+	color: white;
+	text-shadow: -1px 0 black, 0 -1px black, 1px 0 black, 0 1px black;
+	padding: 14px 25px;
+	text-align: center
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 20px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+}
+a:hover, a:active{
+	background-color: #d68fd6;
+}
+a.special{
+	border-radius:25px;
+}
+a.special2{
+	border-radius:0px;
+}
+img{ 
+	opacity:0.5;
+	border-radius:100px;
+	transform: scale(1,1);
+	transition: opacity 1s, transform 1s, border-radius 1s, background-color 1s;
+}
+img:hover{ 
+	opacity:1.0;
+	border-radius:0px;
+	transform:scale(1.5,1.5);
+	z-index: 1;
+	margin:auto;
+	background-color:plum;
+}
